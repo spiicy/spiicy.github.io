@@ -1,0 +1,16 @@
+# Site settings
+title: Spicy
+email: emmanuel@spiicy.io
+description: > # this means to ignore newlines until "baseurl:"
+  Web Agency, Solution-Finder. 
+  Project Management, Development, UX Design, Design.
+  English / French
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://spiicy.io" # the base hostname & protocol for your site
+twitter_username: wespiicy
+github_username:  spiiicy
+
+# Build settings
+markdown: kramdown
+
+keep_files: [ 'assets' ]
