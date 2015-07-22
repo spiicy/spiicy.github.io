@@ -12,5 +12,3 @@ github_username:  spiiicy
 
 # Build settings
 markdown: kramdown
-
-keep_files: [ 'assets' ]
