@@ -225,7 +225,7 @@ input {
     top: 33%;
     right: 0;
     left: 0;
-    z-index: 0;
+    z-index: 2;
     margin: auto;
     max-width: 700px;
     color: #D1D3D3;
