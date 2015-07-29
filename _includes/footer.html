@@ -55,5 +55,14 @@ $(document).ready(function () {
     $(window).scroll(function () {
         EasyPeasyParallax();
     });
+
+    $('a.cbp-caption').hover(
+        function() {
+            console.log($(this).find('.circle-icon').length);
+            $(this).find('.circle-icon').removeClass('zoomOut').addClass('zoomIn').show();
+        }, function() {
+            $(this).find('.circle-icon').removeClass('zoomIn').addClass('zoomOut').show();
+        }
+    );
 });
 </script>
